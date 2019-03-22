@@ -33,6 +33,16 @@ questions.main = [
 		description: 'Which database to use',
 		default: nconf.get('database') || 'mongo',
 	},
+	{
+		name: 'isprivateportal',
+		description: 'Portal is private',
+		default: 'false',
+	},
+	{
+		name: 'requiresinvitation',
+		description: 'Portal requires invitation',
+		default: 'false',
+	},
 ];
 
 questions.optional = [
