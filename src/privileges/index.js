@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * The security platform for the entire BB
+ * This module sets up all the submodules
+ */
 var privileges = module.exports;
 
 privileges.privilegeLabels = [

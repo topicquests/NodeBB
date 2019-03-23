@@ -113,6 +113,12 @@ Groups.getGroupsAndMembers = function (groupNames, callback) {
 	], callback);
 };
 
+/**
+ * Fetch a group by groupName
+ * @param groupName
+ * @param options [truncateUserList, userListCount, uid]
+ * @callback
+ */
 Groups.get = function (groupName, options, callback) {
 	if (!groupName) {
 		return callback(new Error('[[error:invalid-group]]'));
